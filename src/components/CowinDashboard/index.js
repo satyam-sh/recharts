@@ -95,7 +95,7 @@ class CowinDashboard extends Component {
     switch (apiStatus) {
       case apiConstants.loading:
         return (
-          <div className="loader">
+          <div className="loader" testid="loader">
             <Loader type="ThreeDots" color="#ffffff" height={80} width={80} />
           </div>
         )
