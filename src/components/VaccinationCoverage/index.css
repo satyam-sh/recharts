@@ -1,0 +1,11 @@
+/* Write your CSS here */
+
+.barChartContainer {
+  padding: 20px;
+  width: 95%;
+  background-color: #1c1c2b;
+}
+.vaccination-coverage-heading {
+  color: #cbd5e1;
+  font-size: 20px;
+}

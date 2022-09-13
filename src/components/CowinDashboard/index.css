@@ -1,0 +1,60 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.main-container {
+  background-color: #161625;
+  padding: 50px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav {
+  height: 30px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+nav > img {
+  width: 30px;
+}
+
+.logo-heading {
+  color: #2cc6c6;
+  margin-left: 14px;
+  font-size: 22px;
+  font-family: 'Roboto';
+}
+.page-header {
+  color: #ffffff;
+  width: 100%;
+  padding-left: 20px;
+  font-size: 26px;
+  font-family: 'Roboto';
+}
+.failure-view {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+.wrong-heading {
+  color: snow;
+  font-family: 'Bree Serif';
+  font-size: 25px;
+}
+.failure-image {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loader {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
